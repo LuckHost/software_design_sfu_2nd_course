@@ -1,0 +1,144 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="eIHVzfGc_JMfUHL-ESoe">
+    <mxGraphModel dx="1195" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5ln2RreHp8DBt0RloksY-17" value="Toy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="340" width="190" height="216" as="geometry">
+            <mxRectangle x="480" y="340" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-18" value="&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; name: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-17">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-21" value="&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; price: &lt;span class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-17">
+          <mxGeometry y="52" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="5ln2RreHp8DBt0RloksY-17">
+          <mxGeometry y="78" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-20" value="&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; Toy()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-17">
+          <mxGeometry y="86" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-25" value="&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; Toy(String, &lt;span class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;)&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-17">
+          <mxGeometry y="112" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-24" value="&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;equals&lt;/span&gt;(Object obj): &lt;span class=&quot;hljs-type&quot;&gt;boolean&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-17">
+          <mxGeometry y="138" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-23" value="&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; hashCode(): &lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-17">
+          <mxGeometry y="164" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-22" value="&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; toString(): String&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-17">
+          <mxGeometry y="190" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-26" value="SoftToy                " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="760" width="250" height="216" as="geometry">
+            <mxRectangle x="480" y="340" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-27" value="- material: &lt;span class=&quot;hljs-type&quot;&gt;String&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-26">
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-28" value="- softnessLevel: &lt;span class=&quot;hljs-type&quot;&gt;double&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-26">
+          <mxGeometry y="52" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="5ln2RreHp8DBt0RloksY-26">
+          <mxGeometry y="78" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-30" value="+ &lt;span class=&quot;hljs-built_in&quot;&gt;SoftToy&lt;/span&gt;()&amp;nbsp; &amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-26">
+          <mxGeometry y="86" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-31" value="+ &lt;span class=&quot;hljs-built_in&quot;&gt;SoftToy&lt;/span&gt;(&lt;span class=&quot;hljs-type&quot;&gt;String&lt;/span&gt;, &lt;span class=&quot;hljs-type&quot;&gt;double&lt;/span&gt;, &lt;span class=&quot;hljs-type&quot;&gt;String&lt;/span&gt;, &lt;span class=&quot;hljs-type&quot;&gt;double&lt;/span&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-26">
+          <mxGeometry y="112" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-32" value="+ &lt;span class=&quot;hljs-built_in&quot;&gt;setMaterial&lt;/span&gt;(): &lt;span class=&quot;hljs-type&quot;&gt;void&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-26">
+          <mxGeometry y="138" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-33" value="+ &lt;span class=&quot;hljs-built_in&quot;&gt;setSoftnessLevel&lt;/span&gt;(): &lt;span class=&quot;hljs-type&quot;&gt;void&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-26">
+          <mxGeometry y="164" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-34" value="+ &lt;span class=&quot;hljs-built_in&quot;&gt;toString&lt;/span&gt;(): &lt;span class=&quot;hljs-type&quot;&gt;String&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-26">
+          <mxGeometry y="190" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-36" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="5ln2RreHp8DBt0RloksY-26" target="5ln2RreHp8DBt0RloksY-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="560" y="740" as="sourcePoint" />
+            <mxPoint x="720" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-37" value="ConstructorToy                             " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="760" width="250" height="216" as="geometry">
+            <mxRectangle x="480" y="340" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-38" value="- pieces: &lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-37">
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-39" value="- theme: &lt;span class=&quot;hljs-type&quot;&gt;String&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-37">
+          <mxGeometry y="52" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="5ln2RreHp8DBt0RloksY-37">
+          <mxGeometry y="78" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-41" value="+ &lt;span class=&quot;hljs-built_in&quot;&gt;ConstructorToy&lt;/span&gt;()&amp;nbsp;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-37">
+          <mxGeometry y="86" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-42" value="+ &lt;span class=&quot;hljs-built_in&quot;&gt;ConstructorToy&lt;/span&gt;(&lt;span class=&quot;hljs-type&quot;&gt;String&lt;/span&gt;, &lt;span class=&quot;hljs-type&quot;&gt;double&lt;/span&gt;, &lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt;, &lt;span class=&quot;hljs-type&quot;&gt;String&lt;/span&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-37">
+          <mxGeometry y="112" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-43" value="+ &lt;span class=&quot;hljs-built_in&quot;&gt;setPieces&lt;/span&gt;(): &lt;span class=&quot;hljs-type&quot;&gt;void&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-37">
+          <mxGeometry y="138" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-44" value="+ &lt;span class=&quot;hljs-built_in&quot;&gt;setTheme&lt;/span&gt;(): &lt;span class=&quot;hljs-type&quot;&gt;void&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-37">
+          <mxGeometry y="164" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-45" value="+ &lt;span class=&quot;hljs-built_in&quot;&gt;toString&lt;/span&gt;(): &lt;span class=&quot;hljs-type&quot;&gt;String&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-37">
+          <mxGeometry y="190" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-46" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" target="5ln2RreHp8DBt0RloksY-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="319.99538461538464" y="760" as="sourcePoint" />
+            <mxPoint x="514.5800000000002" y="556" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-47" value="RemoteControlToy                            " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="760" width="290" height="216" as="geometry">
+            <mxRectangle x="480" y="340" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-48" value="- range: &lt;span class=&quot;hljs-type&quot;&gt;double&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-47">
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-49" value="- controlType: &lt;span class=&quot;hljs-type&quot;&gt;String&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-47">
+          <mxGeometry y="52" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-50" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="5ln2RreHp8DBt0RloksY-47">
+          <mxGeometry y="78" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-51" value="+ &lt;span class=&quot;hljs-built_in&quot;&gt;RemoteControlToy&lt;/span&gt;()&amp;nbsp; &amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-47">
+          <mxGeometry y="86" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-52" value="+ &lt;span class=&quot;hljs-built_in&quot;&gt;RemoteControlToy&lt;/span&gt;(&lt;span class=&quot;hljs-type&quot;&gt;String&lt;/span&gt;, &lt;span class=&quot;hljs-type&quot;&gt;double&lt;/span&gt;, &lt;span class=&quot;hljs-type&quot;&gt;double&lt;/span&gt;, &lt;span class=&quot;hljs-type&quot;&gt;String&lt;/span&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-47">
+          <mxGeometry y="112" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-53" value="+ &lt;span class=&quot;hljs-built_in&quot;&gt;setRange&lt;/span&gt;(): &lt;span class=&quot;hljs-type&quot;&gt;void&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-47">
+          <mxGeometry y="138" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-54" value="+ &lt;span class=&quot;hljs-built_in&quot;&gt;setControlType&lt;/span&gt;(): &lt;span class=&quot;hljs-type&quot;&gt;void&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-47">
+          <mxGeometry y="164" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-55" value="+ &lt;span class=&quot;hljs-built_in&quot;&gt;toString&lt;/span&gt;(): &lt;span class=&quot;hljs-type&quot;&gt;String&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5ln2RreHp8DBt0RloksY-47">
+          <mxGeometry y="190" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5ln2RreHp8DBt0RloksY-56" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="5ln2RreHp8DBt0RloksY-47">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="731.4242857142858" y="760" as="sourcePoint" />
+            <mxPoint x="609.9957142857143" y="556" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
